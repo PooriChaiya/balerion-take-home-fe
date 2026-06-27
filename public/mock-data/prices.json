@@ -1,0 +1,1154 @@
+[
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 205.3,
+    "multiplier_pct": 125,
+    "unit_price": 256.62
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 141.89,
+    "multiplier_pct": 100,
+    "unit_price": 141.89
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 230.87,
+    "multiplier_pct": 90,
+    "unit_price": 207.79
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 146.92,
+    "multiplier_pct": 125,
+    "unit_price": 183.65
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 95.08,
+    "multiplier_pct": 100,
+    "unit_price": 95.08
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 167.42,
+    "multiplier_pct": 90,
+    "unit_price": 150.67
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 68.21,
+    "multiplier_pct": 125,
+    "unit_price": 85.27
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 59.6,
+    "multiplier_pct": 100,
+    "unit_price": 59.6
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 182.15,
+    "multiplier_pct": 90,
+    "unit_price": 163.93
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 498.73,
+    "multiplier_pct": 125,
+    "unit_price": 623.41
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 437.92,
+    "multiplier_pct": 100,
+    "unit_price": 437.92
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 128.71,
+    "multiplier_pct": 90,
+    "unit_price": 115.84
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 310.46,
+    "multiplier_pct": 125,
+    "unit_price": 388.08
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 226.9,
+    "multiplier_pct": 100,
+    "unit_price": 226.9
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 227.05,
+    "multiplier_pct": 90,
+    "unit_price": 204.34
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 58.29,
+    "multiplier_pct": 125,
+    "unit_price": 72.87
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 244.65,
+    "multiplier_pct": 100,
+    "unit_price": 244.65
+  },
+  {
+    "item_id": "Item-1",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 443.42,
+    "multiplier_pct": 90,
+    "unit_price": 399.08
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 481.77,
+    "multiplier_pct": 125,
+    "unit_price": 602.21
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 303.23,
+    "multiplier_pct": 100,
+    "unit_price": 303.23
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 119.17,
+    "multiplier_pct": 90,
+    "unit_price": 107.26
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 412,
+    "multiplier_pct": 125,
+    "unit_price": 515
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 336.3,
+    "multiplier_pct": 100,
+    "unit_price": 336.3
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 114.35,
+    "multiplier_pct": 90,
+    "unit_price": 102.92
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 243.1,
+    "multiplier_pct": 125,
+    "unit_price": 303.87
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 194.43,
+    "multiplier_pct": 100,
+    "unit_price": 194.43
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 298.42,
+    "multiplier_pct": 90,
+    "unit_price": 268.58
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 385.09,
+    "multiplier_pct": 125,
+    "unit_price": 481.36
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 134.66,
+    "multiplier_pct": 100,
+    "unit_price": 134.66
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 89.49,
+    "multiplier_pct": 90,
+    "unit_price": 80.54
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 107.51,
+    "multiplier_pct": 125,
+    "unit_price": 134.38
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 72.52,
+    "multiplier_pct": 100,
+    "unit_price": 72.52
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 219.11,
+    "multiplier_pct": 90,
+    "unit_price": 197.2
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 120.61,
+    "multiplier_pct": 125,
+    "unit_price": 150.77
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 63.91,
+    "multiplier_pct": 100,
+    "unit_price": 63.91
+  },
+  {
+    "item_id": "Item-2",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 235.61,
+    "multiplier_pct": 90,
+    "unit_price": 212.05
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 151.5,
+    "multiplier_pct": 125,
+    "unit_price": 189.37
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 429.59,
+    "multiplier_pct": 100,
+    "unit_price": 429.59
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 69.13,
+    "multiplier_pct": 90,
+    "unit_price": 62.22
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 446.02,
+    "multiplier_pct": 125,
+    "unit_price": 557.52
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 236.22,
+    "multiplier_pct": 100,
+    "unit_price": 236.22
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 338.45,
+    "multiplier_pct": 90,
+    "unit_price": 304.61
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 107.95,
+    "multiplier_pct": 125,
+    "unit_price": 134.93
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 198.53,
+    "multiplier_pct": 100,
+    "unit_price": 198.53
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 359.79,
+    "multiplier_pct": 90,
+    "unit_price": 323.81
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 58.02,
+    "multiplier_pct": 125,
+    "unit_price": 72.53
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 100.85,
+    "multiplier_pct": 100,
+    "unit_price": 100.85
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 470.38,
+    "multiplier_pct": 90,
+    "unit_price": 423.34
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 68.41,
+    "multiplier_pct": 125,
+    "unit_price": 85.51
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 256.66,
+    "multiplier_pct": 100,
+    "unit_price": 256.66
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 70.49,
+    "multiplier_pct": 90,
+    "unit_price": 63.44
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 113.42,
+    "multiplier_pct": 125,
+    "unit_price": 141.78
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 124.24,
+    "multiplier_pct": 100,
+    "unit_price": 124.24
+  },
+  {
+    "item_id": "Item-3",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 199.42,
+    "multiplier_pct": 90,
+    "unit_price": 179.48
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 370.41,
+    "multiplier_pct": 125,
+    "unit_price": 463.01
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 76.21,
+    "multiplier_pct": 100,
+    "unit_price": 76.21
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 245.87,
+    "multiplier_pct": 90,
+    "unit_price": 221.28
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 450.64,
+    "multiplier_pct": 125,
+    "unit_price": 563.3
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 338.91,
+    "multiplier_pct": 100,
+    "unit_price": 338.91
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 230.47,
+    "multiplier_pct": 90,
+    "unit_price": 207.42
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 249.89,
+    "multiplier_pct": 125,
+    "unit_price": 312.36
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 328.54,
+    "multiplier_pct": 100,
+    "unit_price": 328.54
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 383.91,
+    "multiplier_pct": 90,
+    "unit_price": 345.52
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 385.01,
+    "multiplier_pct": 125,
+    "unit_price": 481.26
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 224.23,
+    "multiplier_pct": 100,
+    "unit_price": 224.23
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 317.79,
+    "multiplier_pct": 90,
+    "unit_price": 286.01
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 163.16,
+    "multiplier_pct": 125,
+    "unit_price": 203.95
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 444.58,
+    "multiplier_pct": 100,
+    "unit_price": 444.58
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 139.22,
+    "multiplier_pct": 90,
+    "unit_price": 125.3
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 383.36,
+    "multiplier_pct": 125,
+    "unit_price": 479.2
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 403.4,
+    "multiplier_pct": 100,
+    "unit_price": 403.4
+  },
+  {
+    "item_id": "Item-4",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 73.67,
+    "multiplier_pct": 90,
+    "unit_price": 66.3
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 492.44,
+    "multiplier_pct": 125,
+    "unit_price": 615.56
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 480.66,
+    "multiplier_pct": 100,
+    "unit_price": 480.66
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 417.71,
+    "multiplier_pct": 90,
+    "unit_price": 375.94
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 315.41,
+    "multiplier_pct": 125,
+    "unit_price": 394.26
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 465.1,
+    "multiplier_pct": 100,
+    "unit_price": 465.1
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 100.75,
+    "multiplier_pct": 90,
+    "unit_price": 90.67
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 498.43,
+    "multiplier_pct": 125,
+    "unit_price": 623.03
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 70.37,
+    "multiplier_pct": 100,
+    "unit_price": 70.37
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 53.17,
+    "multiplier_pct": 90,
+    "unit_price": 47.85
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 321.3,
+    "multiplier_pct": 125,
+    "unit_price": 401.62
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 179.51,
+    "multiplier_pct": 100,
+    "unit_price": 179.51
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 96.16,
+    "multiplier_pct": 90,
+    "unit_price": 86.55
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 492.94,
+    "multiplier_pct": 125,
+    "unit_price": 616.17
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 375.49,
+    "multiplier_pct": 100,
+    "unit_price": 375.49
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 397.63,
+    "multiplier_pct": 90,
+    "unit_price": 357.87
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 421.83,
+    "multiplier_pct": 125,
+    "unit_price": 527.29
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 251.02,
+    "multiplier_pct": 100,
+    "unit_price": 251.02
+  },
+  {
+    "item_id": "Item-5",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 254.08,
+    "multiplier_pct": 90,
+    "unit_price": 228.67
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 171.4,
+    "multiplier_pct": 125,
+    "unit_price": 214.24
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 189.28,
+    "multiplier_pct": 100,
+    "unit_price": 189.28
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 163.81,
+    "multiplier_pct": 90,
+    "unit_price": 147.43
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 453.72,
+    "multiplier_pct": 125,
+    "unit_price": 567.15
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 464.37,
+    "multiplier_pct": 100,
+    "unit_price": 464.37
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 357.42,
+    "multiplier_pct": 90,
+    "unit_price": 321.68
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 394.96,
+    "multiplier_pct": 125,
+    "unit_price": 493.7
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 259.94,
+    "multiplier_pct": 100,
+    "unit_price": 259.94
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 494.69,
+    "multiplier_pct": 90,
+    "unit_price": 445.22
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 172.42,
+    "multiplier_pct": 125,
+    "unit_price": 215.52
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 307.7,
+    "multiplier_pct": 100,
+    "unit_price": 307.7
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 499.01,
+    "multiplier_pct": 90,
+    "unit_price": 449.11
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 308.66,
+    "multiplier_pct": 125,
+    "unit_price": 385.82
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 184.82,
+    "multiplier_pct": 100,
+    "unit_price": 184.82
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 153.43,
+    "multiplier_pct": 90,
+    "unit_price": 138.09
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 330.52,
+    "multiplier_pct": 125,
+    "unit_price": 413.14
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 245.51,
+    "multiplier_pct": 100,
+    "unit_price": 245.51
+  },
+  {
+    "item_id": "Item-6",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 493.86,
+    "multiplier_pct": 90,
+    "unit_price": 444.47
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 357.81,
+    "multiplier_pct": 125,
+    "unit_price": 447.26
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 450.66,
+    "multiplier_pct": 100,
+    "unit_price": 450.66
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 446.67,
+    "multiplier_pct": 90,
+    "unit_price": 402
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 66.76,
+    "multiplier_pct": 125,
+    "unit_price": 83.46
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 383,
+    "multiplier_pct": 100,
+    "unit_price": 383
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 189.97,
+    "multiplier_pct": 90,
+    "unit_price": 170.97
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 63.89,
+    "multiplier_pct": 125,
+    "unit_price": 79.86
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 204.79,
+    "multiplier_pct": 100,
+    "unit_price": 204.79
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 276.38,
+    "multiplier_pct": 90,
+    "unit_price": 248.74
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 262.67,
+    "multiplier_pct": 125,
+    "unit_price": 328.33
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 336.16,
+    "multiplier_pct": 100,
+    "unit_price": 336.16
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 146.76,
+    "multiplier_pct": 90,
+    "unit_price": 132.08
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 402.94,
+    "multiplier_pct": 125,
+    "unit_price": 503.67
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 332.04,
+    "multiplier_pct": 100,
+    "unit_price": 332.04
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 468.05,
+    "multiplier_pct": 90,
+    "unit_price": 421.25
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 344.97,
+    "multiplier_pct": 125,
+    "unit_price": 431.22
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 417.14,
+    "multiplier_pct": 100,
+    "unit_price": 417.14
+  },
+  {
+    "item_id": "Item-7",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 121.13,
+    "multiplier_pct": 90,
+    "unit_price": 109.02
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-001",
+    "price_tier": "EMERGENCY",
+    "base_price": 71.47,
+    "multiplier_pct": 125,
+    "unit_price": 89.33
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-001",
+    "price_tier": "OVERDUE",
+    "base_price": 268.46,
+    "multiplier_pct": 100,
+    "unit_price": 268.46
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-001",
+    "price_tier": "DAILY",
+    "base_price": 96.53,
+    "multiplier_pct": 90,
+    "unit_price": 86.88
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-002",
+    "price_tier": "EMERGENCY",
+    "base_price": 273.92,
+    "multiplier_pct": 125,
+    "unit_price": 342.4
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-002",
+    "price_tier": "OVERDUE",
+    "base_price": 296.71,
+    "multiplier_pct": 100,
+    "unit_price": 296.71
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-002",
+    "price_tier": "DAILY",
+    "base_price": 415.11,
+    "multiplier_pct": 90,
+    "unit_price": 373.6
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-003",
+    "price_tier": "EMERGENCY",
+    "base_price": 68.91,
+    "multiplier_pct": 125,
+    "unit_price": 86.14
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-003",
+    "price_tier": "OVERDUE",
+    "base_price": 376.12,
+    "multiplier_pct": 100,
+    "unit_price": 376.12
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-003",
+    "price_tier": "DAILY",
+    "base_price": 92.97,
+    "multiplier_pct": 90,
+    "unit_price": 83.67
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-004",
+    "price_tier": "EMERGENCY",
+    "base_price": 433.25,
+    "multiplier_pct": 125,
+    "unit_price": 541.56
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-004",
+    "price_tier": "OVERDUE",
+    "base_price": 188.95,
+    "multiplier_pct": 100,
+    "unit_price": 188.95
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-004",
+    "price_tier": "DAILY",
+    "base_price": 243.67,
+    "multiplier_pct": 90,
+    "unit_price": 219.31
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-005",
+    "price_tier": "EMERGENCY",
+    "base_price": 300.95,
+    "multiplier_pct": 125,
+    "unit_price": 376.18
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-005",
+    "price_tier": "OVERDUE",
+    "base_price": 344.64,
+    "multiplier_pct": 100,
+    "unit_price": 344.64
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-005",
+    "price_tier": "DAILY",
+    "base_price": 315.87,
+    "multiplier_pct": 90,
+    "unit_price": 284.28
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-006",
+    "price_tier": "EMERGENCY",
+    "base_price": 321.08,
+    "multiplier_pct": 125,
+    "unit_price": 401.35
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-006",
+    "price_tier": "OVERDUE",
+    "base_price": 329.89,
+    "multiplier_pct": 100,
+    "unit_price": 329.89
+  },
+  {
+    "item_id": "Item-8",
+    "supplier_id": "SP-006",
+    "price_tier": "DAILY",
+    "base_price": 218.69,
+    "multiplier_pct": 90,
+    "unit_price": 196.82
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-1",
+    "remaining_qty": 898
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-2",
+    "remaining_qty": 918
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-3",
+    "remaining_qty": 870
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-4",
+    "remaining_qty": 929
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-5",
+    "remaining_qty": 1003
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-6",
+    "remaining_qty": 998
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-7",
+    "remaining_qty": 802
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-001",
+    "item_id": "Item-8",
+    "remaining_qty": 1075
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-1",
+    "remaining_qty": 865
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-2",
+    "remaining_qty": 1076
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-3",
+    "remaining_qty": 876
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-4",
+    "remaining_qty": 859
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-5",
+    "remaining_qty": 817
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-6",
+    "remaining_qty": 1092
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-7",
+    "remaining_qty": 836
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-002",
+    "item_id": "Item-8",
+    "remaining_qty": 1073
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-1",
+    "remaining_qty": 1062
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-2",
+    "remaining_qty": 1082
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-3",
+    "remaining_qty": 934
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-4",
+    "remaining_qty": 1064
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-5",
+    "remaining_qty": 890
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-6",
+    "remaining_qty": 832
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-7",
+    "remaining_qty": 1038
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-003",
+    "item_id": "Item-8",
+    "remaining_qty": 829
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-1",
+    "remaining_qty": 1143
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-2",
+    "remaining_qty": 1095
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-3",
+    "remaining_qty": 805
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-4",
+    "remaining_qty": 958
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-5",
+    "remaining_qty": 976
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-6",
+    "remaining_qty": 1009
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-7",
+    "remaining_qty": 818
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-004",
+    "item_id": "Item-8",
+    "remaining_qty": 893
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-1",
+    "remaining_qty": 973
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-2",
+    "remaining_qty": 831
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-3",
+    "remaining_qty": 875
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-4",
+    "remaining_qty": 969
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-5",
+    "remaining_qty": 959
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-6",
+    "remaining_qty": 1079
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-7",
+    "remaining_qty": 943
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-005",
+    "item_id": "Item-8",
+    "remaining_qty": 1159
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-1",
+    "remaining_qty": 1048
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-2",
+    "remaining_qty": 927
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-3",
+    "remaining_qty": 1121
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-4",
+    "remaining_qty": 1078
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-5",
+    "remaining_qty": 1195
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-6",
+    "remaining_qty": 928
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-7",
+    "remaining_qty": 1010
+  },
+  {
+    "warehouse_id": "WH-001",
+    "supplier_id": "SP-006",
+    "item_id": "Item-8",
+    "remaining_qty": 811
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-1",
+    "remaining_qty": 899
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-2",
+    "remaining_qty": 838
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-3",
+    "remaining_qty": 1043
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-4",
+    "remaining_qty": 954
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-5",
+    "remaining_qty": 1161
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-6",
+    "remaining_qty": 1154
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-7",
+    "remaining_qty": 808
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-001",
+    "item_id": "Item-8",
+    "remaining_qty": 1150
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-1",
+    "remaining_qty": 851
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-2",
+    "remaining_qty": 1171
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-3",
+    "remaining_qty": 1154
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-4",
+    "remaining_qty": 1088
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-5",
+    "remaining_qty": 1015
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-6",
+    "remaining_qty": 958
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-7",
+    "remaining_qty": 967
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-002",
+    "item_id": "Item-8",
+    "remaining_qty": 809
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-1",
+    "remaining_qty": 1118
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-2",
+    "remaining_qty": 945
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-3",
+    "remaining_qty": 983
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-4",
+    "remaining_qty": 1107
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-5",
+    "remaining_qty": 1179
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-6",
+    "remaining_qty": 854
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-7",
+    "remaining_qty": 1008
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-003",
+    "item_id": "Item-8",
+    "remaining_qty": 845
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-1",
+    "remaining_qty": 1160
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-2",
+    "remaining_qty": 800
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-3",
+    "remaining_qty": 1163
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-4",
+    "remaining_qty": 898
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-5",
+    "remaining_qty": 925
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-6",
+    "remaining_qty": 1157
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-7",
+    "remaining_qty": 910
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-004",
+    "item_id": "Item-8",
+    "remaining_qty": 1092
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-1",
+    "remaining_qty": 864
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-2",
+    "remaining_qty": 1171
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-3",
+    "remaining_qty": 943
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-4",
+    "remaining_qty": 837
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-5",
+    "remaining_qty": 956
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-6",
+    "remaining_qty": 928
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-7",
+    "remaining_qty": 1022
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-005",
+    "item_id": "Item-8",
+    "remaining_qty": 1166
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-1",
+    "remaining_qty": 829
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-2",
+    "remaining_qty": 841
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-3",
+    "remaining_qty": 1150
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-4",
+    "remaining_qty": 1014
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-5",
+    "remaining_qty": 1153
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-6",
+    "remaining_qty": 1024
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-7",
+    "remaining_qty": 1130
+  },
+  {
+    "warehouse_id": "WH-002",
+    "supplier_id": "SP-006",
+    "item_id": "Item-8",
+    "remaining_qty": 942
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-1",
+    "remaining_qty": 977
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-2",
+    "remaining_qty": 861
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-3",
+    "remaining_qty": 1103
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-4",
+    "remaining_qty": 1037
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-5",
+    "remaining_qty": 1112
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-6",
+    "remaining_qty": 971
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-7",
+    "remaining_qty": 1062
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-001",
+    "item_id": "Item-8",
+    "remaining_qty": 974
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-1",
+    "remaining_qty": 918
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-2",
+    "remaining_qty": 1092
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-3",
+    "remaining_qty": 1160
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-4",
+    "remaining_qty": 1162
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-5",
+    "remaining_qty": 830
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-6",
+    "remaining_qty": 1092
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-7",
+    "remaining_qty": 845
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-002",
+    "item_id": "Item-8",
+    "remaining_qty": 997
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-1",
+    "remaining_qty": 1002
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-2",
+    "remaining_qty": 1024
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-3",
+    "remaining_qty": 999
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-4",
+    "remaining_qty": 974
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-5",
+    "remaining_qty": 1026
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-6",
+    "remaining_qty": 958
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-7",
+    "remaining_qty": 1120
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-003",
+    "item_id": "Item-8",
+    "remaining_qty": 914
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-1",
+    "remaining_qty": 1133
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-2",
+    "remaining_qty": 918
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-3",
+    "remaining_qty": 914
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-4",
+    "remaining_qty": 1079
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-5",
+    "remaining_qty": 1158
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-6",
+    "remaining_qty": 1114
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-7",
+    "remaining_qty": 1074
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-004",
+    "item_id": "Item-8",
+    "remaining_qty": 1092
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-1",
+    "remaining_qty": 921
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-2",
+    "remaining_qty": 916
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-3",
+    "remaining_qty": 1022
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-4",
+    "remaining_qty": 870
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-5",
+    "remaining_qty": 1063
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-6",
+    "remaining_qty": 1042
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-7",
+    "remaining_qty": 1077
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-005",
+    "item_id": "Item-8",
+    "remaining_qty": 1173
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-1",
+    "remaining_qty": 1026
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-2",
+    "remaining_qty": 1068
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-3",
+    "remaining_qty": 1016
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-4",
+    "remaining_qty": 931
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-5",
+    "remaining_qty": 1120
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-6",
+    "remaining_qty": 1104
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-7",
+    "remaining_qty": 1165
+  },
+  {
+    "warehouse_id": "WH-003",
+    "supplier_id": "SP-006",
+    "item_id": "Item-8",
+    "remaining_qty": 829
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-1",
+    "remaining_qty": 828
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-2",
+    "remaining_qty": 937
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-3",
+    "remaining_qty": 804
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-4",
+    "remaining_qty": 1138
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-5",
+    "remaining_qty": 1088
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-6",
+    "remaining_qty": 873
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-7",
+    "remaining_qty": 930
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-001",
+    "item_id": "Item-8",
+    "remaining_qty": 849
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-1",
+    "remaining_qty": 1085
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-2",
+    "remaining_qty": 986
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-3",
+    "remaining_qty": 805
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-4",
+    "remaining_qty": 877
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-5",
+    "remaining_qty": 1137
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-6",
+    "remaining_qty": 829
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-7",
+    "remaining_qty": 1010
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-002",
+    "item_id": "Item-8",
+    "remaining_qty": 936
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-1",
+    "remaining_qty": 888
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-2",
+    "remaining_qty": 859
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-3",
+    "remaining_qty": 874
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-4",
+    "remaining_qty": 1085
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-5",
+    "remaining_qty": 1058
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-6",
+    "remaining_qty": 819
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-7",
+    "remaining_qty": 912
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-003",
+    "item_id": "Item-8",
+    "remaining_qty": 817
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-1",
+    "remaining_qty": 947
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-2",
+    "remaining_qty": 936
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-3",
+    "remaining_qty": 989
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-4",
+    "remaining_qty": 884
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-5",
+    "remaining_qty": 1126
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-6",
+    "remaining_qty": 862
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-7",
+    "remaining_qty": 1123
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-004",
+    "item_id": "Item-8",
+    "remaining_qty": 1071
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-1",
+    "remaining_qty": 946
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-2",
+    "remaining_qty": 1118
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-3",
+    "remaining_qty": 959
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-4",
+    "remaining_qty": 895
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-5",
+    "remaining_qty": 864
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-6",
+    "remaining_qty": 1065
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-7",
+    "remaining_qty": 898
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-005",
+    "item_id": "Item-8",
+    "remaining_qty": 992
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-1",
+    "remaining_qty": 1036
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-2",
+    "remaining_qty": 967
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-3",
+    "remaining_qty": 887
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-4",
+    "remaining_qty": 1190
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-5",
+    "remaining_qty": 949
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-6",
+    "remaining_qty": 1004
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-7",
+    "remaining_qty": 1032
+  },
+  {
+    "warehouse_id": "WH-004",
+    "supplier_id": "SP-006",
+    "item_id": "Item-8",
+    "remaining_qty": 1122
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-1",
+    "remaining_qty": 983
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-2",
+    "remaining_qty": 1137
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-3",
+    "remaining_qty": 1044
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-4",
+    "remaining_qty": 1195
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-5",
+    "remaining_qty": 897
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-6",
+    "remaining_qty": 1001
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-7",
+    "remaining_qty": 931
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-001",
+    "item_id": "Item-8",
+    "remaining_qty": 1150
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-1",
+    "remaining_qty": 1048
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-2",
+    "remaining_qty": 1128
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-3",
+    "remaining_qty": 1130
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-4",
+    "remaining_qty": 911
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-5",
+    "remaining_qty": 948
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-6",
+    "remaining_qty": 964
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-7",
+    "remaining_qty": 940
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-002",
+    "item_id": "Item-8",
+    "remaining_qty": 1066
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-1",
+    "remaining_qty": 894
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-2",
+    "remaining_qty": 913
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-3",
+    "remaining_qty": 873
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-4",
+    "remaining_qty": 1126
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-5",
+    "remaining_qty": 992
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-6",
+    "remaining_qty": 1063
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-7",
+    "remaining_qty": 942
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-003",
+    "item_id": "Item-8",
+    "remaining_qty": 1141
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-1",
+    "remaining_qty": 1085
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-2",
+    "remaining_qty": 1139
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-3",
+    "remaining_qty": 1146
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-4",
+    "remaining_qty": 820
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-5",
+    "remaining_qty": 848
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-6",
+    "remaining_qty": 841
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-7",
+    "remaining_qty": 819
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-004",
+    "item_id": "Item-8",
+    "remaining_qty": 991
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-1",
+    "remaining_qty": 929
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-2",
+    "remaining_qty": 980
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-3",
+    "remaining_qty": 1136
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-4",
+    "remaining_qty": 1047
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-5",
+    "remaining_qty": 1185
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-6",
+    "remaining_qty": 1073
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-7",
+    "remaining_qty": 809
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-005",
+    "item_id": "Item-8",
+    "remaining_qty": 882
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-1",
+    "remaining_qty": 1005
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-2",
+    "remaining_qty": 951
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-3",
+    "remaining_qty": 882
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-4",
+    "remaining_qty": 867
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-5",
+    "remaining_qty": 1032
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-6",
+    "remaining_qty": 862
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-7",
+    "remaining_qty": 892
+  },
+  {
+    "warehouse_id": "WH-005",
+    "supplier_id": "SP-006",
+    "item_id": "Item-8",
+    "remaining_qty": 942
+  }
+]

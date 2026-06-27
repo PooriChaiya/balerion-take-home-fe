@@ -1,0 +1,1202 @@
+[
+  {
+    "customer_id": "CT-0001",
+    "name": "Customer 1",
+    "credit_limit": 165601,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0002",
+    "name": "Customer 2",
+    "credit_limit": 71253,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0003",
+    "name": "Customer 3",
+    "credit_limit": 59069,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0004",
+    "name": "Customer 4",
+    "credit_limit": 147261,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0005",
+    "name": "Customer 5",
+    "credit_limit": 34723,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0006",
+    "name": "Customer 6",
+    "credit_limit": 12850,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0007",
+    "name": "Customer 7",
+    "credit_limit": 181501,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0008",
+    "name": "Customer 8",
+    "credit_limit": 79429,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0009",
+    "name": "Customer 9",
+    "credit_limit": 8035,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0010",
+    "name": "Customer 10",
+    "credit_limit": 10839,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0011",
+    "name": "Customer 11",
+    "credit_limit": 59698,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0012",
+    "name": "Customer 12",
+    "credit_limit": 93910,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0013",
+    "name": "Customer 13",
+    "credit_limit": 146346,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0014",
+    "name": "Customer 14",
+    "credit_limit": 81186,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0015",
+    "name": "Customer 15",
+    "credit_limit": 93709,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0016",
+    "name": "Customer 16",
+    "credit_limit": 80691,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0017",
+    "name": "Customer 17",
+    "credit_limit": 21705,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0018",
+    "name": "Customer 18",
+    "credit_limit": 148503,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0019",
+    "name": "Customer 19",
+    "credit_limit": 83624,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0020",
+    "name": "Customer 20",
+    "credit_limit": 74237,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0021",
+    "name": "Customer 21",
+    "credit_limit": 133471,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0022",
+    "name": "Customer 22",
+    "credit_limit": 78008,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0023",
+    "name": "Customer 23",
+    "credit_limit": 81175,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0024",
+    "name": "Customer 24",
+    "credit_limit": 26228,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0025",
+    "name": "Customer 25",
+    "credit_limit": 139280,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0026",
+    "name": "Customer 26",
+    "credit_limit": 194128,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0027",
+    "name": "Customer 27",
+    "credit_limit": 67058,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0028",
+    "name": "Customer 28",
+    "credit_limit": 22072,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0029",
+    "name": "Customer 29",
+    "credit_limit": 101168,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0030",
+    "name": "Customer 30",
+    "credit_limit": 175999,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0031",
+    "name": "Customer 31",
+    "credit_limit": 178039,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0032",
+    "name": "Customer 32",
+    "credit_limit": 84218,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0033",
+    "name": "Customer 33",
+    "credit_limit": 38780,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0034",
+    "name": "Customer 34",
+    "credit_limit": 54085,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0035",
+    "name": "Customer 35",
+    "credit_limit": 10164,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0036",
+    "name": "Customer 36",
+    "credit_limit": 93737,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0037",
+    "name": "Customer 37",
+    "credit_limit": 96572,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0038",
+    "name": "Customer 38",
+    "credit_limit": 196813,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0039",
+    "name": "Customer 39",
+    "credit_limit": 45517,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0040",
+    "name": "Customer 40",
+    "credit_limit": 159635,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0041",
+    "name": "Customer 41",
+    "credit_limit": 155590,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0042",
+    "name": "Customer 42",
+    "credit_limit": 63782,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0043",
+    "name": "Customer 43",
+    "credit_limit": 52132,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0044",
+    "name": "Customer 44",
+    "credit_limit": 48299,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0045",
+    "name": "Customer 45",
+    "credit_limit": 49028,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0046",
+    "name": "Customer 46",
+    "credit_limit": 7802,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0047",
+    "name": "Customer 47",
+    "credit_limit": 120253,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0048",
+    "name": "Customer 48",
+    "credit_limit": 67557,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0049",
+    "name": "Customer 49",
+    "credit_limit": 15754,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0050",
+    "name": "Customer 50",
+    "credit_limit": 185059,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0051",
+    "name": "Customer 51",
+    "credit_limit": 40876,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0052",
+    "name": "Customer 52",
+    "credit_limit": 119427,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0053",
+    "name": "Customer 53",
+    "credit_limit": 69991,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0054",
+    "name": "Customer 54",
+    "credit_limit": 68648,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0055",
+    "name": "Customer 55",
+    "credit_limit": 171969,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0056",
+    "name": "Customer 56",
+    "credit_limit": 80523,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0057",
+    "name": "Customer 57",
+    "credit_limit": 49446,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0058",
+    "name": "Customer 58",
+    "credit_limit": 197819,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0059",
+    "name": "Customer 59",
+    "credit_limit": 96303,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0060",
+    "name": "Customer 60",
+    "credit_limit": 82033,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0061",
+    "name": "Customer 61",
+    "credit_limit": 36101,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0062",
+    "name": "Customer 62",
+    "credit_limit": 130474,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0063",
+    "name": "Customer 63",
+    "credit_limit": 70906,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0064",
+    "name": "Customer 64",
+    "credit_limit": 24249,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0065",
+    "name": "Customer 65",
+    "credit_limit": 89882,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0066",
+    "name": "Customer 66",
+    "credit_limit": 43373,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0067",
+    "name": "Customer 67",
+    "credit_limit": 32377,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0068",
+    "name": "Customer 68",
+    "credit_limit": 97357,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0069",
+    "name": "Customer 69",
+    "credit_limit": 140447,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0070",
+    "name": "Customer 70",
+    "credit_limit": 81947,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0071",
+    "name": "Customer 71",
+    "credit_limit": 49821,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0072",
+    "name": "Customer 72",
+    "credit_limit": 163572,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0073",
+    "name": "Customer 73",
+    "credit_limit": 25973,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0074",
+    "name": "Customer 74",
+    "credit_limit": 43225,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0075",
+    "name": "Customer 75",
+    "credit_limit": 50084,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0076",
+    "name": "Customer 76",
+    "credit_limit": 138193,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0077",
+    "name": "Customer 77",
+    "credit_limit": 67135,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0078",
+    "name": "Customer 78",
+    "credit_limit": 152188,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0079",
+    "name": "Customer 79",
+    "credit_limit": 181929,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0080",
+    "name": "Customer 80",
+    "credit_limit": 174711,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0081",
+    "name": "Customer 81",
+    "credit_limit": 67624,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0082",
+    "name": "Customer 82",
+    "credit_limit": 55165,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0083",
+    "name": "Customer 83",
+    "credit_limit": 160909,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0084",
+    "name": "Customer 84",
+    "credit_limit": 181217,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0085",
+    "name": "Customer 85",
+    "credit_limit": 6192,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0086",
+    "name": "Customer 86",
+    "credit_limit": 57122,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0087",
+    "name": "Customer 87",
+    "credit_limit": 53043,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0088",
+    "name": "Customer 88",
+    "credit_limit": 26828,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0089",
+    "name": "Customer 89",
+    "credit_limit": 90799,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0090",
+    "name": "Customer 90",
+    "credit_limit": 103977,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0091",
+    "name": "Customer 91",
+    "credit_limit": 112821,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0092",
+    "name": "Customer 92",
+    "credit_limit": 100290,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0093",
+    "name": "Customer 93",
+    "credit_limit": 5244,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0094",
+    "name": "Customer 94",
+    "credit_limit": 77423,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0095",
+    "name": "Customer 95",
+    "credit_limit": 68145,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0096",
+    "name": "Customer 96",
+    "credit_limit": 78907,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0097",
+    "name": "Customer 97",
+    "credit_limit": 78441,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0098",
+    "name": "Customer 98",
+    "credit_limit": 181223,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0099",
+    "name": "Customer 99",
+    "credit_limit": 88817,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0100",
+    "name": "Customer 100",
+    "credit_limit": 73111,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0101",
+    "name": "Customer 101",
+    "credit_limit": 71353,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0102",
+    "name": "Customer 102",
+    "credit_limit": 13124,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0103",
+    "name": "Customer 103",
+    "credit_limit": 154700,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0104",
+    "name": "Customer 104",
+    "credit_limit": 138046,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0105",
+    "name": "Customer 105",
+    "credit_limit": 117248,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0106",
+    "name": "Customer 106",
+    "credit_limit": 50210,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0107",
+    "name": "Customer 107",
+    "credit_limit": 23442,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0108",
+    "name": "Customer 108",
+    "credit_limit": 75089,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0109",
+    "name": "Customer 109",
+    "credit_limit": 44791,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0110",
+    "name": "Customer 110",
+    "credit_limit": 188290,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0111",
+    "name": "Customer 111",
+    "credit_limit": 93526,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0112",
+    "name": "Customer 112",
+    "credit_limit": 51956,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0113",
+    "name": "Customer 113",
+    "credit_limit": 63068,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0114",
+    "name": "Customer 114",
+    "credit_limit": 29947,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0115",
+    "name": "Customer 115",
+    "credit_limit": 8321,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0116",
+    "name": "Customer 116",
+    "credit_limit": 140893,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0117",
+    "name": "Customer 117",
+    "credit_limit": 153623,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0118",
+    "name": "Customer 118",
+    "credit_limit": 191388,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0119",
+    "name": "Customer 119",
+    "credit_limit": 179615,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0120",
+    "name": "Customer 120",
+    "credit_limit": 21146,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0121",
+    "name": "Customer 121",
+    "credit_limit": 44752,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0122",
+    "name": "Customer 122",
+    "credit_limit": 111032,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0123",
+    "name": "Customer 123",
+    "credit_limit": 10028,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0124",
+    "name": "Customer 124",
+    "credit_limit": 193636,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0125",
+    "name": "Customer 125",
+    "credit_limit": 46978,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0126",
+    "name": "Customer 126",
+    "credit_limit": 96002,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0127",
+    "name": "Customer 127",
+    "credit_limit": 147849,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0128",
+    "name": "Customer 128",
+    "credit_limit": 85812,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0129",
+    "name": "Customer 129",
+    "credit_limit": 67694,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0130",
+    "name": "Customer 130",
+    "credit_limit": 75471,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0131",
+    "name": "Customer 131",
+    "credit_limit": 175581,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0132",
+    "name": "Customer 132",
+    "credit_limit": 137163,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0133",
+    "name": "Customer 133",
+    "credit_limit": 54622,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0134",
+    "name": "Customer 134",
+    "credit_limit": 86466,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0135",
+    "name": "Customer 135",
+    "credit_limit": 82597,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0136",
+    "name": "Customer 136",
+    "credit_limit": 7481,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0137",
+    "name": "Customer 137",
+    "credit_limit": 30052,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0138",
+    "name": "Customer 138",
+    "credit_limit": 146721,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0139",
+    "name": "Customer 139",
+    "credit_limit": 49167,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0140",
+    "name": "Customer 140",
+    "credit_limit": 18552,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0141",
+    "name": "Customer 141",
+    "credit_limit": 37347,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0142",
+    "name": "Customer 142",
+    "credit_limit": 130278,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0143",
+    "name": "Customer 143",
+    "credit_limit": 60408,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0144",
+    "name": "Customer 144",
+    "credit_limit": 133539,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0145",
+    "name": "Customer 145",
+    "credit_limit": 159991,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0146",
+    "name": "Customer 146",
+    "credit_limit": 199917,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0147",
+    "name": "Customer 147",
+    "credit_limit": 54020,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0148",
+    "name": "Customer 148",
+    "credit_limit": 43203,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0149",
+    "name": "Customer 149",
+    "credit_limit": 89957,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0150",
+    "name": "Customer 150",
+    "credit_limit": 42125,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0151",
+    "name": "Customer 151",
+    "credit_limit": 74054,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0152",
+    "name": "Customer 152",
+    "credit_limit": 9397,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0153",
+    "name": "Customer 153",
+    "credit_limit": 66291,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0154",
+    "name": "Customer 154",
+    "credit_limit": 54726,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0155",
+    "name": "Customer 155",
+    "credit_limit": 15261,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0156",
+    "name": "Customer 156",
+    "credit_limit": 176426,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0157",
+    "name": "Customer 157",
+    "credit_limit": 138409,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0158",
+    "name": "Customer 158",
+    "credit_limit": 34323,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0159",
+    "name": "Customer 159",
+    "credit_limit": 34710,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0160",
+    "name": "Customer 160",
+    "credit_limit": 95649,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0161",
+    "name": "Customer 161",
+    "credit_limit": 70013,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0162",
+    "name": "Customer 162",
+    "credit_limit": 114736,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0163",
+    "name": "Customer 163",
+    "credit_limit": 127958,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0164",
+    "name": "Customer 164",
+    "credit_limit": 158586,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0165",
+    "name": "Customer 165",
+    "credit_limit": 63857,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0166",
+    "name": "Customer 166",
+    "credit_limit": 61727,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0167",
+    "name": "Customer 167",
+    "credit_limit": 40872,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0168",
+    "name": "Customer 168",
+    "credit_limit": 49552,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0169",
+    "name": "Customer 169",
+    "credit_limit": 84437,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0170",
+    "name": "Customer 170",
+    "credit_limit": 162119,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0171",
+    "name": "Customer 171",
+    "credit_limit": 166042,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0172",
+    "name": "Customer 172",
+    "credit_limit": 109148,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0173",
+    "name": "Customer 173",
+    "credit_limit": 9739,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0174",
+    "name": "Customer 174",
+    "credit_limit": 102105,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0175",
+    "name": "Customer 175",
+    "credit_limit": 107554,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0176",
+    "name": "Customer 176",
+    "credit_limit": 24917,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0177",
+    "name": "Customer 177",
+    "credit_limit": 115847,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0178",
+    "name": "Customer 178",
+    "credit_limit": 48584,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0179",
+    "name": "Customer 179",
+    "credit_limit": 12444,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0180",
+    "name": "Customer 180",
+    "credit_limit": 76105,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0181",
+    "name": "Customer 181",
+    "credit_limit": 41948,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0182",
+    "name": "Customer 182",
+    "credit_limit": 26553,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0183",
+    "name": "Customer 183",
+    "credit_limit": 83195,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0184",
+    "name": "Customer 184",
+    "credit_limit": 167176,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0185",
+    "name": "Customer 185",
+    "credit_limit": 58576,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0186",
+    "name": "Customer 186",
+    "credit_limit": 148401,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0187",
+    "name": "Customer 187",
+    "credit_limit": 96340,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0188",
+    "name": "Customer 188",
+    "credit_limit": 28068,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0189",
+    "name": "Customer 189",
+    "credit_limit": 194141,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0190",
+    "name": "Customer 190",
+    "credit_limit": 95345,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0191",
+    "name": "Customer 191",
+    "credit_limit": 143129,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0192",
+    "name": "Customer 192",
+    "credit_limit": 132094,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0193",
+    "name": "Customer 193",
+    "credit_limit": 42557,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0194",
+    "name": "Customer 194",
+    "credit_limit": 35491,
+    "tier": "STANDARD"
+  },
+  {
+    "customer_id": "CT-0195",
+    "name": "Customer 195",
+    "credit_limit": 98899,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0196",
+    "name": "Customer 196",
+    "credit_limit": 102197,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0197",
+    "name": "Customer 197",
+    "credit_limit": 145131,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0198",
+    "name": "Customer 198",
+    "credit_limit": 52647,
+    "tier": "GOLD"
+  },
+  {
+    "customer_id": "CT-0199",
+    "name": "Customer 199",
+    "credit_limit": 126407,
+    "tier": "VIP"
+  },
+  {
+    "customer_id": "CT-0200",
+    "name": "Customer 200",
+    "credit_limit": 50594,
+    "tier": "GOLD"
+  }
+]
