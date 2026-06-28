@@ -71,14 +71,11 @@ export interface SortState {
 export interface UIState extends FilterState {
   selectedIds: string[];
   sortBy: SortState;
-  expandedRows: string[];
 }
 
 // Redux slice state types
 export interface OrdersState {
   data: SubOrder[];
-  status: 'idle' | 'loading' | 'ready' | 'error';
-  error: string | null;
 }
 
 export interface StockState {
@@ -89,25 +86,15 @@ export interface StockState {
 export interface CustomersState {
   data: Customer[];
   creditUsed: Record<string, number>;
-  status: 'idle' | 'loading' | 'ready' | 'error';
 }
 
 export interface PricesState {
   data: PriceRule[];
   byKey: Record<string, PriceRule>; // "item|supplier|tier"
-  status: 'idle' | 'loading' | 'ready' | 'error';
 }
 
 export interface AllocationsState {
   byId: Record<string, Allocation[]>; // sub_order_id -> allocations
-  history: Action[];
-  cursor: number; // for undo/redo
-}
-
-export interface Action {
-  type: 'allocate' | 'deallocate' | 'bulk_allocate' | 'reset';
-  timestamp: number;
-  data: unknown;
 }
 
 export interface RootState {

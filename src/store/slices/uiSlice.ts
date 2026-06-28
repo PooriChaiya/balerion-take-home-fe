@@ -8,7 +8,6 @@ const initialState: UIState = {
   sourceFilter: 'ALL',
   selectedIds: [],
   sortBy: { column: 'create_date', direction: 'asc' },
-  expandedRows: [],
 };
 
 export const uiSlice = createSlice({
@@ -27,32 +26,8 @@ export const uiSlice = createSlice({
     setSourceFilter: (state, action) => {
       state.sourceFilter = action.payload;
     },
-    toggleSelected: (state, action) => {
-      const id = action.payload;
-      const index = state.selectedIds.indexOf(id);
-      if (index >= 0) {
-        state.selectedIds.splice(index, 1);
-      } else {
-        state.selectedIds.push(id);
-      }
-    },
-    setSelectedIds: (state, action) => {
-      state.selectedIds = action.payload;
-    },
-    clearSelection: (state) => {
-      state.selectedIds = [];
-    },
     setSort: (state, action) => {
       state.sortBy = action.payload;
-    },
-    toggleExpanded: (state, action) => {
-      const id = action.payload;
-      const index = state.expandedRows.indexOf(id);
-      if (index >= 0) {
-        state.expandedRows.splice(index, 1);
-      } else {
-        state.expandedRows.push(id);
-      }
     },
     resetFilters: (state) => {
       state.search = '';
@@ -68,11 +43,7 @@ export const {
   setTypeFilter,
   setStatusFilter,
   setSourceFilter,
-  toggleSelected,
-  setSelectedIds,
-  clearSelection,
   setSort,
-  toggleExpanded,
   resetFilters,
 } = uiSlice.actions;
 

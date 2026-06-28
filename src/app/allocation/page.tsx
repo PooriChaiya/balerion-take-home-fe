@@ -43,7 +43,7 @@ export default function AllocationPage() {
             Loading allocation data...
           </Typography>
           <Typography variant="caption" sx={{ color: '#6b7280' }}>
-            Debug: isReady={String(isReady)} isRunning={String(isRunning)} progress={progress}
+            {"SALMON ALLOCATION"}
           </Typography>
           {isRunning && (
             <>
