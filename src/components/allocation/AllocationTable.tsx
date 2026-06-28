@@ -30,7 +30,12 @@ import { bankersRound } from '@/lib/allocation';
 
 const columnHelper = createColumnHelper<SubOrder>();
 
-export default function AllocationTable() {
+interface AllocationTableProps {
+  onRowClick?: (order: SubOrder) => void;
+  selectedOrderId?: string | null;
+}
+
+export default function AllocationTable({ onRowClick, selectedOrderId }: AllocationTableProps) {
   const orders = useAppSelector(state => state.orders.data);
   const stockRemaining = useAppSelector(state => state.stock.remaining);
   const prices = useAppSelector(state => state.prices.byKey);
@@ -267,10 +272,12 @@ export default function AllocationTable() {
                       key={row.id}
                       data-index={virtualRow.index}
                       ref={rowVirtualizer.measureElement}
+                      onClick={() => onRowClick?.(row.original)}
                       sx={{
                         borderBottom: isEmergencyUnallocated ? '4px solid #ef4444' : undefined,
                         borderLeft: isEmergencyUnallocated ? '4px solid #ef4444' : undefined,
-                        '&:hover': { bgcolor: '#f9fafb' },
+                        '&:hover': { bgcolor: '#f9fafb', cursor: 'pointer' },
+                        bgcolor: selectedOrderId === row.original.sub_order_id ? '#e0f2fe' : undefined,
                       }}
                     >
                       {row.getVisibleCells().map(cell => (

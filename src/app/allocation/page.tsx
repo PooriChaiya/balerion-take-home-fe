@@ -1,13 +1,38 @@
 'use client';
 
+import { useState } from 'react';
 import { useAllocation } from '@/hooks/useAllocation';
 import TopBar from '@/components/allocation/TopBar';
 import AllocationTable from '@/components/allocation/AllocationTable';
 import SummaryPanel from '@/components/allocation/SummaryPanel';
+import AllocationModal from '@/components/allocation/AllocationModal';
 import { Box, LinearProgress, Typography, Stack } from '@mui/material';
+import { useAppSelector } from '@/store/hooks';
+import { SubOrder } from '@/types';
 
 export default function AllocationPage() {
   const { isReady, isRunning, progress } = useAllocation();
+  const stock = useAppSelector(state => state.stock.initial);
+  const prices = useAppSelector(state => state.prices.data);
+  const customers = useAppSelector(state => state.customers.data);
+
+  const [selectedOrder, setSelectedOrder] = useState<SubOrder | null>(null);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const handleRowClick = (order: SubOrder) => {
+    setSelectedOrder(order);
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+    // Don't clear selectedOrder immediately to allow transitions
+    setTimeout(() => setSelectedOrder(null), 300);
+  };
+
+  const selectedCustomer = selectedOrder
+    ? customers.find(c => c.customer_id === selectedOrder.customer_id) || null
+    : null;
 
 
   if (!isReady) {
@@ -23,7 +48,7 @@ export default function AllocationPage() {
           {isRunning && (
             <>
               <Box sx={{ width: 256, mt: 2 }}>
-                <LinearProgress variant="determinate" value={progress} />
+                <LinearProgress variant="determinate" value={Math.min(progress, 100)} />
               </Box>
             </>
           )}
@@ -39,12 +64,25 @@ export default function AllocationPage() {
         <TopBar />
 
         <Box sx={{ flex: 1, overflow: 'auto', p: 3 }}>
-          <AllocationTable />
+          <AllocationTable
+            onRowClick={handleRowClick}
+            selectedOrderId={selectedOrder?.sub_order_id}
+          />
         </Box>
       </Box>
 
       {/* Summary side panel */}
       <SummaryPanel />
+
+      {/* Manual Allocation Modal */}
+      <AllocationModal
+        open={modalOpen}
+        onClose={handleCloseModal}
+        order={selectedOrder}
+        stock={stock}
+        prices={prices}
+        customer={selectedCustomer}
+      />
     </Box>
   );
 }
