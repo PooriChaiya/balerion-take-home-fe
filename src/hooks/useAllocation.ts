@@ -1,9 +1,10 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useAppDispatch } from '@/store/hooks';
 import { setAllocations, clearAllocations } from '@/store/slices/allocationsSlice';
-import { resetStock, updateStock } from '@/store/slices/stockSlice';
-import { resetCredit, updateCreditUsed } from '@/store/slices/customersSlice';
-import { updateOrderAllocated } from '@/store/slices/ordersSlice';
+import { resetStock, updateStock, loadStock } from '@/store/slices/stockSlice';
+import { resetCredit, updateCreditUsed, loadCustomers } from '@/store/slices/customersSlice';
+import { updateOrderAllocated, loadOrders } from '@/store/slices/ordersSlice';
+import { loadPrices } from '@/store/slices/pricesSlice';
 import { runAutoAllocation } from '@/lib/allocation';
 import { fetchOrders, fetchPrices, fetchStock, fetchCustomers } from '@/lib/mockApi';
 
@@ -14,15 +15,19 @@ export function useAllocation() {
   const [isRunning, setIsRunning] = useState(false);
   const [progress, setProgress] = useState(0);
 
-  // Load data and run allocation
+  // Load data and run allocation on mount (client-side only)
   useEffect(() => {
+    let isMounted = true;
+
     const loadDataAndAllocate = async () => {
+      if (!isMounted) return;
+
       setIsRunning(true);
-      setProgress(0);
+      setProgress(10);
 
       try {
-        // Load all data
-        setProgress(10);
+        // Load all data directly
+        setProgress(20);
         const [orders, prices, stock, customers] = await Promise.all([
           fetchOrders(),
           fetchPrices(),
@@ -30,11 +35,22 @@ export function useAllocation() {
           fetchCustomers(),
         ]);
 
+        if (!isMounted) return;
+        setProgress(40);
+
+        // Populate Redux with base data (thunks fetch internally)
+        dispatch(loadOrders());
+        dispatch(loadPrices());
+        dispatch(loadStock());
+        dispatch(loadCustomers());
+
+        if (!isMounted) return;
         setProgress(50);
 
-        // Run allocation (synchronous but fast for 5000 records)
+        // Run allocation
         const result = runAutoAllocation({ orders, stock, customers, prices });
 
+        if (!isMounted) return;
         setProgress(80);
 
         // Update Redux state with results
@@ -75,26 +91,34 @@ export function useAllocation() {
           dispatch(updateOrderAllocated({ subOrderId, allocatedQty: qty }));
         }
 
+        if (!isMounted) return;
+
         setProgress(100);
         setIsReady(true);
+        setIsRunning(false);
       } catch (error) {
         console.error('Failed to load data or run allocation:', error);
-      } finally {
-        setIsRunning(false);
+        if (isMounted) {
+          setIsRunning(false);
+        }
       }
     };
 
     loadDataAndAllocate();
-  }, [dispatch]);
+
+    return () => {
+      isMounted = false;
+    };
+  }, []); // Empty dependency array - run once on mount
 
   const reset = useCallback(() => {
+    setIsReady(false);
     dispatch(clearAllocations());
     dispatch(resetStock());
     dispatch(resetCredit());
   }, [dispatch]);
 
   const runAuto = useCallback(() => {
-    // Reload page to re-run allocation
     window.location.reload();
   }, []);
 

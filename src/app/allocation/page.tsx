@@ -1,6 +1,5 @@
 'use client';
 
-import { useAppSelector } from '@/store/hooks';
 import { useAllocation } from '@/hooks/useAllocation';
 import TopBar from '@/components/allocation/TopBar';
 import AllocationTable from '@/components/allocation/AllocationTable';
@@ -10,11 +9,6 @@ import { Box, LinearProgress, Typography, Stack } from '@mui/material';
 export default function AllocationPage() {
   const { isReady, isRunning, progress } = useAllocation();
 
-  // Get filtered orders
-  const orders = useAppSelector(state => state.orders.data);
-  const stock = useAppSelector(state => state.stock.initial);
-  const customers = useAppSelector(state => state.customers.data);
-  const allocations = useAppSelector(state => state.allocations.byId);
 
   if (!isReady) {
     return (
@@ -23,29 +17,16 @@ export default function AllocationPage() {
           <Typography variant="h6" sx={{ mb: 1 }}>
             Loading allocation data...
           </Typography>
+          <Typography variant="caption" sx={{ color: '#6b7280' }}>
+            Debug: isReady={String(isReady)} isRunning={String(isRunning)} progress={progress}
+          </Typography>
           {isRunning && (
-            <Typography variant="body2" sx={{ color: '#6b7280' }}>
-              Running auto-allocation: {progress}%
-            </Typography>
+            <>
+              <Box sx={{ width: 256, mt: 2 }}>
+                <LinearProgress variant="determinate" value={progress} />
+              </Box>
+            </>
           )}
-        </Stack>
-      </Box>
-    );
-  }
-
-  if (isRunning) {
-    return (
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
-        <Stack sx={{ textAlign: 'center', spacing: 2 }}>
-          <Typography variant="h6" sx={{ mb: 2 }}>
-            Running auto-allocation...
-          </Typography>
-          <Box sx={{ width: 256 }}>
-            <LinearProgress variant="determinate" value={progress} />
-          </Box>
-          <Typography variant="body2" sx={{ color: '#6b7280', mt: 1 }}>
-            {progress}%
-          </Typography>
         </Stack>
       </Box>
     );

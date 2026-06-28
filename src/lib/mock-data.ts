@@ -1,5 +1,47 @@
 // Mock data generator for salmon allocation system
-import { Order, Price, Customer, Inventory, OrderType, PriceTier } from './types';
+// This file is for generating mock data JSON files - not used at runtime
+// Types are defined inline since they differ from runtime types
+// import { Order, Price, Customer, Inventory, OrderType, PriceTier } from './types';
+
+// Local types for mock data generation (different structure than runtime types)
+type OrderType = 'EMERGENCY' | 'OVER_DUE' | 'DAILY';
+type PriceTier = 'EMERGENCY' | 'OVER_DUE' | 'DAILY';
+
+interface Customer {
+  id: string;
+  name: string;
+  creditLimit: number;
+  creditUsed: number;
+}
+
+interface Price {
+  itemId: string;
+  supplierId: string;
+  basePrice: number;
+  tier: PriceTier;
+  percentage: number;
+}
+
+interface Inventory {
+  supplierId: string;
+  warehouseId: string;
+  itemId: string;
+  available: number;
+}
+
+interface Order {
+  order: string;
+  subOrder: string;
+  itemId: string;
+  warehouseId: string;
+  supplierId: string;
+  request: number;
+  allocated: number;
+  type: OrderType;
+  createDate: string;
+  customerId: string;
+  remark: string;
+}
 
 // Constants
 const ORDER_COUNT = 5000;

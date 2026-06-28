@@ -132,23 +132,16 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// Generate and write files
-console.log('Generating mock data...');
 
 const customers = generateCustomers();
 fs.writeFileSync(path.join(outputDir, 'customers.json'), JSON.stringify(customers, null, 2));
-console.log(`Generated ${customers.length} customers`);
 
 const prices = generatePrices();
 fs.writeFileSync(path.join(outputDir, 'prices.json'), JSON.stringify(prices, null, 2));
-console.log(`Generated ${prices.length} price rules`);
 
 const stock = generateStock();
 fs.writeFileSync(path.join(outputDir, 'stock.json'), JSON.stringify(stock, null, 2));
-console.log(`Generated ${stock.length} stock cells`);
 
 const orders = generateOrders();
 fs.writeFileSync(path.join(outputDir, 'orders.json'), JSON.stringify(orders, null, 2));
-console.log(`Generated ${orders.length} orders`);
 
-console.log('Mock data generation complete!');
