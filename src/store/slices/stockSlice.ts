@@ -27,6 +27,15 @@ export const stockSlice = createSlice({
   name: 'stock',
   initialState,
   reducers: {
+    setStock: (state, action) => {
+      state.initial = action.payload;
+      // Build remaining map
+      for (const cell of action.payload) {
+        const key = `${cell.warehouse_id}|${cell.supplier_id}|${cell.item_id}`;
+        state.remaining[key] = cell.remaining_qty;
+      }
+      state.status = 'ready';
+    },
     updateStock: (state, action) => {
       const { warehouseId, supplierId, itemId, qty } = action.payload;
       const key = `${warehouseId}|${supplierId}|${itemId}`;
@@ -62,5 +71,5 @@ export const stockSlice = createSlice({
   },
 });
 
-export const { updateStock, resetStock } = stockSlice.actions;
+export const { setStock, updateStock, resetStock } = stockSlice.actions;
 export default stockSlice.reducer;

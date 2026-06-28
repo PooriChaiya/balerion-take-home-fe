@@ -25,6 +25,10 @@ export const ordersSlice = createSlice({
   name: 'orders',
   initialState,
   reducers: {
+    setOrders: (state, action) => {
+      state.data = action.payload;
+      state.status = 'ready';
+    },
     updateOrderAllocated: (state, action) => {
       const { subOrderId, allocatedQty } = action.payload;
       const order = state.data.find(o => o.sub_order_id === subOrderId);
@@ -57,5 +61,5 @@ export const ordersSlice = createSlice({
   },
 });
 
-export const { updateOrderAllocated, updateOrderSource } = ordersSlice.actions;
+export const { setOrders, updateOrderAllocated, updateOrderSource } = ordersSlice.actions;
 export default ordersSlice.reducer;

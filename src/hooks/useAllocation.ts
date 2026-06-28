@@ -1,10 +1,10 @@
 import { useEffect, useState, useCallback } from 'react';
 import { useAppDispatch } from '@/store/hooks';
 import { setAllocations, clearAllocations } from '@/store/slices/allocationsSlice';
-import { resetStock, updateStock, loadStock } from '@/store/slices/stockSlice';
-import { resetCredit, updateCreditUsed, loadCustomers } from '@/store/slices/customersSlice';
-import { updateOrderAllocated, loadOrders } from '@/store/slices/ordersSlice';
-import { loadPrices } from '@/store/slices/pricesSlice';
+import { resetStock, setStock } from '@/store/slices/stockSlice';
+import { resetCredit, updateCreditUsed, setCustomers } from '@/store/slices/customersSlice';
+import { updateOrderAllocated, setOrders } from '@/store/slices/ordersSlice';
+import { setPrices } from '@/store/slices/pricesSlice';
 import { runAutoAllocation } from '@/lib/allocation';
 import { fetchOrders, fetchPrices, fetchStock, fetchCustomers } from '@/lib/mockApi';
 
@@ -38,11 +38,11 @@ export function useAllocation() {
         if (!isMounted) return;
         setProgress(40);
 
-        // Populate Redux with base data (thunks fetch internally)
-        dispatch(loadOrders());
-        dispatch(loadPrices());
-        dispatch(loadStock());
-        dispatch(loadCustomers());
+        // Populate Redux with base data BEFORE running allocation
+        dispatch(setOrders(orders));
+        dispatch(setPrices(prices));
+        dispatch(setStock(stock));
+        dispatch(setCustomers(customers));
 
         if (!isMounted) return;
         setProgress(50);
@@ -56,22 +56,13 @@ export function useAllocation() {
         // Update Redux state with results
         dispatch(setAllocations({ allocations: result.allocations }));
 
-        // Update stock remaining
-        for (const [key, remaining] of Object.entries(result.remainingStock)) {
-          const [wh, sp, item] = key.split('|');
-          const originalCell = stock.find(
-            s => s.warehouse_id === wh && s.supplier_id === sp && s.item_id === item
-          );
-          if (originalCell) {
-            const used = originalCell.remaining_qty - remaining;
-            dispatch(updateStock({
-              warehouseId: wh,
-              supplierId: sp,
-              itemId: item,
-              qty: used,
-            }));
-          }
-        }
+        // Update stock remaining (directly set from result)
+        dispatch(setStock(
+          stock.map(cell => ({
+            ...cell,
+            remaining_qty: result.remainingStock[`${cell.warehouse_id}|${cell.supplier_id}|${cell.item_id}`] ?? cell.remaining_qty
+          }))
+        ));
 
         // Update credit used
         for (const [customerId, remaining] of Object.entries(result.remainingCredit)) {

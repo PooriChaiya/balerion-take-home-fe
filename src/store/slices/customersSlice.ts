@@ -27,6 +27,10 @@ export const customersSlice = createSlice({
   name: 'customers',
   initialState,
   reducers: {
+    setCustomers: (state, action) => {
+      state.data = action.payload;
+      state.status = 'ready';
+    },
     updateCreditUsed: (state, action) => {
       const { customerId, amount } = action.payload;
       state.creditUsed[customerId] = (state.creditUsed[customerId] || 0) + amount;
@@ -52,5 +56,5 @@ export const customersSlice = createSlice({
   },
 });
 
-export const { updateCreditUsed, resetCredit } = customersSlice.actions;
+export const { setCustomers, updateCreditUsed, resetCredit } = customersSlice.actions;
 export default customersSlice.reducer;

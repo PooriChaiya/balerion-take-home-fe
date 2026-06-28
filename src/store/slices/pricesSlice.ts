@@ -26,7 +26,17 @@ export const loadPrices = createAsyncThunk(
 export const pricesSlice = createSlice({
   name: 'prices',
   initialState,
-  reducers: {},
+  reducers: {
+    setPrices: (state, action) => {
+      state.data = action.payload;
+      // Build lookup map
+      for (const price of action.payload) {
+        const key = `${price.item_id}|${price.supplier_id}|${price.price_tier}`;
+        state.byKey[key] = price;
+      }
+      state.status = 'ready';
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(loadPrices.pending, (state) => {
@@ -48,5 +58,7 @@ export const pricesSlice = createSlice({
       });
   },
 });
+
+export const { setPrices } = pricesSlice.actions;
 
 export default pricesSlice.reducer;
