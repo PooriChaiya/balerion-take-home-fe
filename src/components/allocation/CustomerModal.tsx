@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import { useAppSelector } from '@/store/hooks';
 import {
   Dialog,
   DialogTitle,
@@ -36,6 +37,7 @@ export default function CustomerModal({
   highlightedCustomerId,
 }: CustomerModalProps) {
   const [search, setSearch] = useState('');
+  const creditUsedMap = useAppSelector(state => state.customers.creditUsed);
 
   const filteredCustomers = useMemo(() => {
     if (!search) return customers;
@@ -102,7 +104,7 @@ export default function CustomerModal({
                 </TableRow>
               ) : (
                 filteredCustomers.map((c) => {
-                  const creditUsed = c.credit_used || 0;
+                  const creditUsed = creditUsedMap[c.customer_id] || 0;
                   const remaining = c.credit_limit - creditUsed;
                   const usagePct = (creditUsed / c.credit_limit) * 100;
                   const tierColor = getTierColor(c.tier);

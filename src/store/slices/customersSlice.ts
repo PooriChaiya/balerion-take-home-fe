@@ -20,7 +20,7 @@ export const customersSlice = createSlice({
     },
     updateCreditUsed: (state, action) => {
       const { customerId, amount } = action.payload;
-      state.creditUsed[customerId] = (state.creditUsed[customerId] || 0) + amount;
+      state.creditUsed[customerId] = amount;
     },
     resetCredit: (state) => {
       state.creditUsed = {};
