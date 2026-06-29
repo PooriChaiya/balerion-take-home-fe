@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Salmon Allocation Tool
 
-## Getting Started
+Interactive web UI for allocating limited salmon stock to 5,000+ customer orders.
 
-First, run the development server:
+---
 
+## Setup
+
+### Prerequisites
+
+- **Node.js 20+** (check with `node --version`)
+- A package manager (npm, yarn, pnpm, or bun)
+
+### Installing Node.js
+
+| Platform | How to Install |
+|----------|----------------|
+| **macOS** | `brew install node` ([Homebrew](https://brew.sh)) OR download from [nodejs.org](https://nodejs.org) |
+| **Windows** | Download installer from [nodejs.org](https://nodejs.org) OR `winget install OpenJS.NodeJS.LTS` |
+| **Linux** | `sudo apt install nodejs` (Debian/Ubuntu) OR `sudo dnf install nodejs` (Fedora) |
+
+Verify install: `node --version` (should show v20+)
+
+### Install Package Manager (if needed)
+
+**npm** — included with Node.js. No extra install needed.
+
+**yarn** (optional):
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+corepack enable          # Enable yarn (built into Node 16+)
+yarn --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**pnpm** (optional):
+```bash
+npm install -g pnpm      # or: corepack enable && corepack prepare pnpm@latest --activate
+pnpm --version
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**bun** (optional):
+```bash
+# macOS/Linux
+curl -fsSL https://bun.sh/install | bash
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Windows (PowerShell)
+powershell -c "irm bun.sh/install.ps1|iex"
+```
 
-## Learn More
+### Clone & Install
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone the repo
+git clone <repo-url>
+cd balerion-take-home-fe
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install dependencies (pick one)
+npm install       # npm
+yarn install      # yarn
+pnpm install      # pnpm
+bun install       # bun
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Run Development Server
 
-## Deploy on Vercel
+```bash
+npm run dev        # npm
+yarn dev           # yarn
+pnpm dev           # pnpm
+bun run dev        # bun
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open http://localhost:3000
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Port already in use?**
+```bash
+# Use a different port
+npm run dev -- -p 3001       # npm
+yarn dev -p 3001              # yarn
+PORT=3001 pnpm dev            # pnpm (Linux/macOS)
+set PORT=3001 && pnpm dev    # pnpm (Windows PowerShell)
+```
+
+### Other Commands
+
+```bash
+npm run build          # Production build
+npm run start          # Run production build
+```
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| `node: command not found` | Install Node.js (see [Setup](#setup)) |
+| `EACCES` permission errors | Don't use `sudo`. Fix npm permissions: `mkdir -p ~/.npm-global && npm config set prefix ~/.npm-global` |
+| Port 3000 already in use | Use different port: `npm run dev -- -p 3001` |
+| Module not found errors | Delete `node_modules` + `.next`, rerun `npm install` |
+| TypeScript errors in IDE | Ensure `@types/node` is installed (included in devDependencies) |
+
+## Project Structure
+
+```
+balerion-take-home-fe/
+├── app/                      # Next.js App Router
+│   ├── allocation/           # Allocation page
+│   ├── layout.tsx
+│   └── providers.tsx         # Redux Provider
+├── components/allocation/    # React components
+├── store/                    # Redux slices
+├── hooks/                    # Custom hooks
+├── lib/allocation/           # Pure algorithm functions
+├── public/mock-data/         # JSON files
+└── tests/allocation/         # Vitest tests
+```
