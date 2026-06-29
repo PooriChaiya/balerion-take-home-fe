@@ -27,6 +27,8 @@ import {
 } from '@mui/material';
 import { SubOrder } from '@/types';
 import { bankersRound } from '@/lib/allocation';
+import StockModal from './StockModal';
+import CustomerModal from './CustomerModal';
 
 const columnHelper = createColumnHelper<SubOrder>();
 
@@ -41,6 +43,16 @@ export default function AllocationTable({ onRowClick, selectedOrderId }: Allocat
   const prices = useAppSelector(state => state.prices.byKey);
   const { search, typeFilter, statusFilter, sourceFilter } = useAppSelector(state => state.ui);
   const [sorting, setSorting] = useState<SortingState>([{ id: 'type', desc: false }]);
+
+  // Modal states
+  const [stockModalOpen, setStockModalOpen] = useState(false);
+  const [customerModalOpen, setCustomerModalOpen] = useState(false);
+  const [highlightedItemId, setHighlightedItemId] = useState<string | undefined>();
+  const [highlightedCustomerId, setHighlightedCustomerId] = useState<string | undefined>();
+
+  // Fetch stock and customers data for modals
+  const stockData = useAppSelector(state => state.stock.initial);
+  const customersData = useAppSelector(state => state.customers.data);
 
   // Filter orders
   const filteredOrders = useMemo(() => {
@@ -99,7 +111,21 @@ export default function AllocationTable({ onRowClick, selectedOrderId }: Allocat
     }),
     columnHelper.accessor('customer_id', {
       header: 'Customer',
-      cell: info => info.getValue(),
+      cell: info => {
+        const customerId = info.getValue();
+        return (
+          <Box
+            onClick={(e) => {
+              e.stopPropagation();
+              setHighlightedCustomerId(customerId);
+              setCustomerModalOpen(true);
+            }}
+            sx={{ cursor: 'pointer', color: '#3b82f6', '&:hover': { textDecoration: 'underline' } }}
+          >
+            {customerId}
+          </Box>
+        );
+      },
       size: 100,
     }),
     columnHelper.accessor('item_id', {
@@ -109,7 +135,21 @@ export default function AllocationTable({ onRowClick, selectedOrderId }: Allocat
     }),
     columnHelper.accessor('warehouse_id', {
       header: 'Warehouse',
-      cell: info => info.getValue(),
+      cell: info => {
+        const warehouseId = info.getValue();
+        return (
+          <Box
+            onClick={(e) => {
+              e.stopPropagation();
+              setHighlightedItemId(info.row.original.item_id);
+              setStockModalOpen(true);
+            }}
+            sx={{ cursor: 'pointer', color: '#3b82f6', '&:hover': { textDecoration: 'underline' } }}
+          >
+            {warehouseId}
+          </Box>
+        );
+      },
       size: 100,
     }),
     columnHelper.accessor('supplier_id', {
@@ -118,9 +158,16 @@ export default function AllocationTable({ onRowClick, selectedOrderId }: Allocat
         const supplierId = info.row.original.supplier_id;
         const isWildcard = supplierId === 'SP-000';
         return (
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
+          <Box
+            onClick={(e) => {
+              e.stopPropagation();
+              setHighlightedItemId(info.row.original.item_id);
+              setStockModalOpen(true);
+            }}
+            sx={{ display: 'flex', alignItems: 'center', gap: 0.5, cursor: 'pointer', '&:hover': { textDecoration: 'underline' } }}
+          >
             <Typography sx={{
-              color: isWildcard ? '#9333ea' : 'inherit',
+              color: isWildcard ? '#9333ea' : '#3b82f6',
               fontWeight: isWildcard ? 600 : 400
             }}>
               {supplierId}
@@ -306,6 +353,20 @@ export default function AllocationTable({ onRowClick, selectedOrderId }: Allocat
           </TableBody>
         </Table>
       </TableContainer>
+
+      {/* Modals */}
+      <StockModal
+        open={stockModalOpen}
+        onClose={() => setStockModalOpen(false)}
+        stock={stockData}
+        highlightedItemId={highlightedItemId}
+      />
+      <CustomerModal
+        open={customerModalOpen}
+        onClose={() => setCustomerModalOpen(false)}
+        customers={customersData}
+        highlightedCustomerId={highlightedCustomerId}
+      />
     </Box>
   );
 }

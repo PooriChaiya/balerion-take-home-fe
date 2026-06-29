@@ -206,6 +206,14 @@ export default function TopBar() {
           size="small"
           clickable
         />
+         <Chip
+          label="Fully-Allocated"
+          onClick={() => handleChipClick('status', 'FULL')}
+          color={statusFilter === 'FULL' ? 'primary' : 'default'}
+          variant={statusFilter === 'FULL' ? 'filled' : 'outlined'}
+          size="small"
+          clickable
+        />
         <Chip
           label="Wildcard Source"
           onClick={() => handleChipClick('source', 'WILDCARD')}

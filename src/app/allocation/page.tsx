@@ -72,7 +72,7 @@ export default function AllocationPage() {
       </Box>
 
       {/* Summary side panel */}
-      <SummaryPanel />
+      {/* <SummaryPanel /> */}
 
       {/* Manual Allocation Modal */}
       <AllocationModal
